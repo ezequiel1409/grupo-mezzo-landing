@@ -1,0 +1,22 @@
+<section id="impacto">
+  <div class="wrap">
+    <div class="section-head">
+      <mezzo-eyebrow text="Más allá del parque" />
+      <h2>El impacto llega a la comunidad y la región.</h2>
+      <p>
+        Un desarrollo industrial bien gestionado no beneficia solo a las empresas que se instalan
+        en él.
+      </p>
+    </div>
+  </div>
+
+  <div class="impact">
+    @for (item of items; track item.tag) {
+      <div class="card">
+        <p class="tag">{{ item.tag }}</p>
+        <h3>{{ item.title }}</h3>
+        <p class="desc">{{ item.description }}</p>
+      </div>
+    }
+  </div>
+</section>

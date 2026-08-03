@@ -1,0 +1,24 @@
+<section id="servicios">
+  <div class="wrap">
+    <div class="section-head">
+      <mezzo-eyebrow text="Cómo trabajamos" />
+      <h2>Un mismo equipo, todo el ciclo del desarrollo.</h2>
+      <p>
+        No tercerizamos la coordinación: acompañamos el proyecto desde la elección del terreno
+        hasta que las empresas ya están operando dentro del parque.
+      </p>
+    </div>
+
+    <div class="pipeline">
+      @for (step of steps; track step.num) {
+        <div class="pstep">
+          <div class="num">{{ step.num }}</div>
+          <div>
+            <h3>{{ step.title }}</h3>
+            <p>{{ step.description }}</p>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>
