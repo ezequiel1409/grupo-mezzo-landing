@@ -17,15 +17,24 @@ header {
 .mark {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   text-decoration: none;
 
-  span {
+  .brand-text {
     font-family: var(--mezzo-font-display);
     font-weight: 700;
-    font-size: 18px;
-    letter-spacing: -0.01em;
+    font-size: 20px;
+    letter-spacing: -0.02em;
     color: var(--mezzo-graphite);
+    line-height: 1;
+
+    strong {
+      display: inline-block;
+      margin-left: 0.08ch;
+      letter-spacing: 0em;
+      font-weight: 800;
+      transform: none;
+    }
   }
 }
 

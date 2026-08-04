@@ -28,20 +28,23 @@
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.02em;
-  background: var(--mezzo-graphite);
-  color: var(--mezzo-paper);
+  background: linear-gradient(135deg, #4684C2 0%, #FFFFFF 45%, #E8AC67 100%);
+  color: var(--mezzo-graphite);
   padding: 11px 18px;
   text-decoration: none;
   display: inline-block;
   clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
-  transition: background 0.15s ease, color 0.15s ease;
+  transition: background-position 0.4s ease, color 0.15s ease, transform 0.15s ease;
   white-space: nowrap;
   border: 0;
   cursor: pointer;
+  background-size: 220% 220%;
+  background-position: left center;
 
   &:hover {
-    background: var(--mezzo-amber);
+    background-position: right center;
     color: var(--mezzo-graphite);
+    transform: translateY(-1px);
   }
 
   &--ghost {
