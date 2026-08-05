@@ -3,6 +3,7 @@ import { SiteHeaderComponent } from './components/site-header/site-header.compon
 import { HeroComponent } from './components/hero/hero.component';
 import { ServicesPipelineComponent } from './components/services-pipeline/services-pipeline.component';
 import { SustainabilityPanelComponent } from './components/sustainability-panel/sustainability-panel.component';
+import { PortfolioGalleryComponent } from './components/portfolio-gallery/portfolio-gallery.component';
 import { BenefitsGridComponent } from './components/benefits-grid/benefits-grid.component';
 import { ImpactSectionComponent } from './components/impact-section/impact-section.component';
 import { SiteFooterComponent } from './components/site-footer/site-footer.component';
@@ -15,6 +16,7 @@ import { SiteFooterComponent } from './components/site-footer/site-footer.compon
     HeroComponent,
     ServicesPipelineComponent,
     SustainabilityPanelComponent,
+    PortfolioGalleryComponent,
     BenefitsGridComponent,
     ImpactSectionComponent,
     SiteFooterComponent,

@@ -20,6 +20,7 @@ export class SiteHeaderComponent {
   protected readonly navLinks: readonly NavLink[] = [
     { label: 'Servicios', href: '#servicios' },
     { label: 'Sostenibilidad', href: '#sostenibilidad' },
+    { label: 'Proyectos', href: '#proyectos' },
     { label: 'Beneficios', href: '#beneficios' },
     { label: 'Impacto', href: '#impacto' },
   ];
